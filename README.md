@@ -15,7 +15,7 @@ VLDFacebookManager *facebookManager = [[VLDFacebookManager alloc] init];
 
 ```objective-c
 [facebookManager loginWithCompletionBlock: ^(NSError *error) {
-  [self updateLabel];
+  //...
 }];
 ```
 
@@ -36,8 +36,10 @@ params.link = [NSURL URLWithString: @"http://google.com"];
     
 [facebookManager shareDialogParams: params
                    completionBlock: ^(NSError *error, BOOL finished) {
-                            
+  //...             
 }];
 ```
+
+For more info check the Example project.
 
        
