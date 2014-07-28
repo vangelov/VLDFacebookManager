@@ -8,9 +8,9 @@ Note: `VLDFacebookManager` tries to handle 80% of the cases.
 If your use of the Facebook SDK is more advanced this project won't work for you.
 
 ## Example Usage
-
+```objective-c
 VLDFacebookManager *facebookManager = [[VLDFacebookManager alloc] init];
-
+```
 ### Sign in
 
 ```objective-c
