@@ -1,7 +1,7 @@
 ## VLDFacebookManager
 
 Most of the time when a project requires Facebook integration it only consists of getting the user data and sharing. 
-The Facebook SDK, however, doesn't make this easy. It requres the developer to know about sessions, check for cached tokens, request permissons, etc. `VLDFacebookManager` is a simple wrapper around the Facebook library which tries to hide this complexity. 
+The Facebook SDK, however, doesn't make this easy. It requires the developer to know about sessions, check for cached tokens, request permissons, etc. `VLDFacebookManager` is a simple wrapper around the Facebook library which tries to hide this complexity. 
 
 Note: `VLDFacebookManager` tries to handle what I consider to be 80% of the cases.
 If your use of the Facebook SDK is more advanced this project won't work for you.
