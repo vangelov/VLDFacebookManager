@@ -27,13 +27,13 @@
 			<string>com,kgoodness.kg</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb685797234777173</string>
+				<string>fbYour-App-ID</string>
 				<string>Example</string>
 			</array>
 		</dict>
 	</array>
     <key>FacebookAppID</key>
-	<string>685797234777173</string>
+	<string>Your-App-ID</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>LSRequiresIPhoneOS</key>
